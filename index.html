@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Decoration - Transform Your Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="./image/logo 2.jpg" alt="House Decoration Logo" class="logo-img">
+                <span class="logo-text">HouseDecor</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> About</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link"><i class="fas fa-concierge-bell"></i> Services</a></li>
+                <li class="nav-item"><a href="#products" class="nav-link"><i class="fas fa-couch"></i> Products</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section 1: Hero Slider -->
+    <section id="home" class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active">
+                <img src="./image/living room2.jpg" alt="Living Room">
+                <div class="slide-content">
+                    <h1>Transform Your Living Space</h1>
+                    <p>Discover amazing decoration ideas</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./image/1.webp" alt="Bedroom">
+                <div class="slide-content">
+                    <h1>Modern Bedroom Designs</h1>
+                    <p>Create your dream bedroom</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./image/kitchen 2.jpg" alt="Kitchen">
+                <div class="slide-content">
+                    <h1>Elegant Kitchen Solutions</h1>
+                    <p>Style meets functionality</p>
+                </div>
+            </div>
+        </div>
+        <button class="slider-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="slider-btn next" onclick="changeSlide(1)">&#10095;</button>
+    </section>
+
+    <!-- Section 2: About -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <img src="./image/about.jpg" alt="About Us">
+                <div class="about-text">
+                    <h3>Creating Beautiful Homes Since 2010</h3>
+                    <p>We specialize in transforming houses into beautiful homes with our expert decoration services and premium products.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Services -->
+    <section id="services" class="section services-section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="./image/interior desing 2.jpg" alt="Interior Design">
+                    <h3>Interior Design</h3>
+                    <p>Professional interior design services</p>
+                </div>
+                <div class="service-card">
+                    <img src="./image/furtinure.avif" alt="Furniture">
+                    <h3>Furniture Selection</h3>
+                    <p>Curated furniture collections</p>
+                </div>
+                <div class="service-card">
+                    <img src="./image/color.avif" alt="Colors">
+                    <h3>Color Consultation</h3>
+                    <p>Perfect color schemes for your home</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Products Slider -->
+    <section class="section products-slider-section">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="products-slider">
+                <div class="product-slide">
+                    <img src="./image/modern sofa.jpg" alt="Modern Sofa">
+                    <div class="product-info">
+                        <h3>Modern Sofa</h3>
+                        <p class="price">$1,299</p>
+                    </div>
+                </div>
+                <div class="product-slide">
+                    <img src="./image/dining table.webp" alt="Dining Table">
+                    <div class="product-info">
+                        <h3>Dining Table</h3>
+                        <p class="price">$899</p>
+                    </div>
+                </div>
+                <div class="product-slide">
+                    <img src="./image/wal 2.jpg" alt="Wall Art">
+                    <div class="product-info">
+                        <h3>Wall Art</h3>
+                        <p class="price">$199</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Product Cards (5 cards) -->
+    <section class="section product-cards-section">
+        <div class="container">
+            <h2 class="section-title">Popular Items</h2>
+            <div class="product-cards-grid">
+                <div class="product-card">
+                    <img src="./image/dacorative.webp" alt="Decorative Vase">
+                    <h3>Decorative Vase</h3>
+                    <p class="price">$49.99</p>
+                    <button class="btn-add-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./image/cushion.jpg" alt="Designer Cushions">
+                    <h3>Designer Cushions</h3>
+                    <p class="price">$79.99</p>
+                    <button class="btn-add-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./image/lamp.jpg" alt="Table Lamp">
+                    <h3>Table Lamp</h3>
+                    <p class="price">$129.99</p>
+                    <button class="btn-add-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./image/mirror.jpg" alt="Wall Mirror">
+                    <h3>Wall Mirror</h3>
+                    <p class="price">$189.99</p>
+                    <button class="btn-add-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./image/rug.webp" alt="Area Rug">
+                    <h3>Area Rug</h3>
+                    <p class="price">$299.99</p>
+                    <button class="btn-add-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sections 6-11: Additional Content Sections -->
+    <section class="section gallery-section">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-grid">
+                <img src="./image/galery 2.jpg" alt="Gallery 1">
+                <img src="./image/galry 3.jpg" alt="Gallery 2">
+                <img src="./image/ga 4.jpg" alt="Gallery 3">
+                <img src="./image/ga 5.jpg" alt="Gallery 4">
+            </div>
+        </div>
+    </section>
+
+    <section class="section testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="./image/sarah.webp" alt="Customer 1">
+                    <p>"Amazing service! Transformed our home completely."</p>
+                    <h4>- Sarah Johnson</h4>
+                </div>
+                <div class="testimonial-card">
+                    <img src="./image/mike chen.webp" alt="Customer 2">
+                    <p>"Professional team with great attention to detail."</p>
+                    <h4>- Mike Chen</h4>
+                </div>
+                <div class="testimonial-card">
+                    <img src="./image/emily.jpg" alt="Customer 3">
+                    <p>"Exceeded our expectations in every way!"</p>
+                    <h4>- Emily Davis</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section team-section">
+        <div class="container">
+            <h2 class="section-title">Our Expert Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="./image/smith.jpg" alt="Designer 1">
+                    <h3>Jane Smith</h3>
+                    <p>Lead Designer</p>
+                </div>
+                <div class="team-member">
+                    <img src="./image/doe.jpg" alt="Designer 2">
+                    <h3>John Doe</h3>
+                    <p>Senior Decorator</p>
+                </div>
+                <div class="team-member">
+                    <img src="./image/lisa.jpg" alt="Designer 3">
+                    <h3>Lisa Wang</h3>
+                    <p>Color Specialist</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section blog-section">
+        <div class="container">
+            <h2 class="section-title">Latest from Our Blog</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="./image/2024.webp" alt="Blog 1">
+                    <h3>2024 Decoration Trends</h3>
+                    <p>Discover the latest trends in home decoration...</p>
+                </article>
+                <article class="blog-card">
+                    <img src="./image/small space sol.jpg" alt="Blog 2">
+                    <h3>Small Space Solutions</h3>
+                    <p>Maximize your small living spaces...</p>
+                </article>
+                <article class="blog-card">
+                    <img src="./image/color phyece.jpg" alt="Blog 3">
+                    <h3>Color Psychology</h3>
+                    <p>How colors affect your mood...</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact-info-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-info-grid">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Visit Us</h3>
+                    <p>123 Decoration Street, Design City</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Call Us</h3>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>info@housedecor.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 12: Final Slider -->
+    <section class="section final-slider-section">
+        <div class="container">
+            <h2 class="section-title">Special Offers</h2>
+            <div class="final-slider">
+                <div class="final-slide active">
+                    <img src="./image/offer 1.jpg" alt="Offer 1">
+                    <div class="final-slide-content">
+                        <h3>50% Off on All Furniture</h3>
+                        <p>Limited time offer!</p>
+                    </div>
+                </div>
+                <div class="final-slide">
+                    <img src="./image/offer 2.webp" alt="Offer 2">
+                    <div class="final-slide-content">
+                        <h3>Free Consultation</h3>
+                        <p>Book your free design consultation today!</p>
+                    </div>
+                </div>
+                <div class="final-slide">
+                    <img src="./image/offer 3.webp" alt="Offer 3">
+                    <div class="final-slide-content">
+                        <h3>Seasonal Sale</h3>
+                        <p>Up to 70% off on selected items!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <!-- <img src="./image/logo.jpg" alt="House Decoration Logo" class="footer-logo"> -->
+                    <h3>HouseDecor</h3>
+                    <p>Transforming houses into beautiful homes</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#products">Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@housedecor.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Decoration Street, Design City</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 HouseDecor. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
